@@ -1,5 +1,9 @@
 # Personenerkennung
 
+Der Kontext und der Inhalt dieses Repositories sind in einem
+technischen Bericht der Hochschule Bremen beschrieben:
+https://homepages.on.hs-bremen.de/~jbredereke/de/forschung/veroeffentlichungen/vehikel-bild-spracherkennung-esysp-2025.html
+
 Dieses Repository bietet eine verbesserte Version des Codes für die Personenerkennung aus dem `wise2122/soc-nn_main_repo` Repository.
 
 ### Benutzter Datensatz
