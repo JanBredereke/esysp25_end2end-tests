@@ -1,0 +1,5 @@
+# Apply LF ending to all text files
+* text=auto
+
+# Use jupyter notebook filter
+*.ipynb filter=strip-notebook-output

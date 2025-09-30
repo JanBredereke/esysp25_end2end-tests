@@ -1,0 +1,20 @@
+onnx==1.18.0
+matplotlib==3.10.1
+numpy==1.26.4
+torch==2.7.0
+torchvision==0.22.0
+netron==8.4.0
+finn==0.0.1
+dependencies==2.0.1
+scikit-learn==1.7.0
+ipykernel # necessary to run jupyter notebooks in vscode
+
+### brevitas
+# documentation from previous years wants us to install version 0.2.0 alpha like this:
+#git+https://github.com/Xilinx/brevitas.git@aff49758ec445d77c75721c7de3091a2a1797ca8#egg=Brevitas
+# we made a self-patched version 0.2.0 alpha that avoids some errors:
+#git+https://github.com/00Jonas00/brevitas.git@66df5c6f9ac50a747613a1fb8a4524ceaf61bc6e#egg=Brevitas
+# for some reason most of us can't install the brevitas package using the methods above.
+# the next best version available on pypi is 0.2.0, but it brings some other problems with it.
+# we decided to go with the last version before FINN export was deprecated.
+brevitas==0.9.1
